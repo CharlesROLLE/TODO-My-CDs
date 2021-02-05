@@ -1,0 +1,1 @@
+This TODO List JavaScript Application allow the user manage his CD'S Discoteque.

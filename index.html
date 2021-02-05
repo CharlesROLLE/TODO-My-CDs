@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CD's</title>
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Discoteque</h1>
+                <p>Radiosabines CD's</p>
+                <form id="search-cd">
+                    <input type="text" placeholder="Search Cd's..." >
+                </form>
+            </div>
+        </header>
+        <div id="cd-list">
+            <h2 class="type">Cd's to Listen</h2>
+            <ul>
+                <li>
+                    <span class="name">YES - Drama</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">DEVO - Freedom of Choice</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Pink Floyd - Dark Side of the Moon</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Oscar D' Leon - Live At Copacabana</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Bob Marley & the Wailers - Babylon by Bus</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-cd">
+            <input type="checkbox" id="hide" />
+            <label for="hide">Hide all Cd's</label>
+            <input type="text" placeholder="Add a CD..."/>
+            <button>Add</button>
+        </form>
+     </div>
+     <div id="tabbed-content">
+        <ul class="tabs">
+          <li data-target="#about" class="active">About</li>
+          <li data-target="#contact">Contact</li>
+        </ul>
+        <div class="panel active" id="about">
+          <p>Sabines Web Dev</p>
+          <p>I am self-taught, programming and web development, my goal: learn every day....</p>
+        </div>
+        <div class="panel" id="contact">
+          <p>Contact me</p>
+          <p> ce.rolle@gmail.com</p>
+        </div> 
+     <div>
+        <footer id="footer">
+            Sabines Web Dev
+        </footer>
+    </div>  
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
